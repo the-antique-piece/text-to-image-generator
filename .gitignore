@@ -1,0 +1,47 @@
+# Ignore the data folder (large datasets, images)
+/data/dataset_images/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment folders
+env/
+.venv/
+venv/
+
+# Ignore environment variable files (sensitive data)
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary and swap files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Ignore editor/project configuration files
+.vscode/
+.idea/
+
+# Ignore compiled files and folders
+dist/
+build/
+*.egg-info/
+
+# Ignore Node.js files (if using any front-end code)
+node_modules/
+
+# Ignore Git-related files
+.git/

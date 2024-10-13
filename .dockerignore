@@ -1,0 +1,36 @@
+# Ignore the data folder (you likely don’t want to include large datasets)
+data/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files and folders
+env/
+.venv/
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore Git files
+.git/
+.gitignore
+
+# Ignore virtual environment dependencies (if used)
+venv/
+*.egg-info/
+
+# Ignore any temporary or build files
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+node_modules/
+dist/
+build/
