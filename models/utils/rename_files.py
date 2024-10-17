@@ -1,8 +1,8 @@
 import os
-
+img_name='west_highland_white_terrier'
 # Define the path to the Boder_Collie folder
-folder_path = '/home/thebiglion/Downloads/DogBreeds/boxer'
-img_name='boxer'
+folder_path = f'/home/thebiglion/Downloads/DogBreeds/{img_name}'
+
 def rename_files(folder_path):
     count=1
     

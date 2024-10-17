@@ -15,7 +15,7 @@ env/
 venv/
 
 # Ignore environment variable files (sensitive data)
-*.env
+
 
 # Ignore logs
 *.log
@@ -45,3 +45,10 @@ node_modules/
 
 # Ignore Git-related files
 .git/
+
+# Ignore SSH and GPG key files
+*.key
+*.pem
+
+# Ignore sensitive config files
+config/secrets.yml
